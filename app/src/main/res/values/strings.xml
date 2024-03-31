@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="add">Add  Restaurant</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="phone">Phone</string>
+    <string name="description">Description</string>
+    <string name="rating">Rating</string>
+    <string name="back">BACK</string>
+    <string name="submit">SUBMIT</string>
+    <string name="resname">Restaurant Name</string>
+    <string name="resloc">Restaurant Location</string>
+    <string name="resphone">Restaurant Phone</string>
+    <string name="resrating">Restaurant Rating</string>
+    <string name="resinfo">Restaurant Description</string>
+    <string name="filterbtn">Filter</string>
+    <string name="filtertext">Enter Text</string>
+    <string-array name="options">
+        <item>Filter by:</item>
+        <item>Filter by Name</item>
+        <item>Filter by Location</item>
+        <item>Filter by Phone Number</item>
+        <item>Filter by Rating</item>
+        <item>Filter by Description</item>
+    </string-array>
+</resources>
