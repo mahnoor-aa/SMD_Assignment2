@@ -64,12 +64,12 @@ public class MainActivity extends AppCompatActivity {
                             if (res.getLocation().toLowerCase().contains(text)) {
                                 listfilter.add(res);
                             }
-                        } else if (Objects.equals(option, "Filter by Phone")) {
-                            if (res.getPhone().toLowerCase().contains(text)) {
+                        } else if (Objects.equals(option, "Filter by Phone Number")) {
+                            if (res.getPhone().contains(text)) {
                                 listfilter.add(res);
                             }
                         } else if (Objects.equals(option, "Filter by Rating")) {
-                            if (res.getRating().toLowerCase().contains(text)) {
+                            if (res.getRating().contains(text)) {
                                 listfilter.add(res);
                             }
                         } else if (Objects.equals(option, "Filter by Description")) {
